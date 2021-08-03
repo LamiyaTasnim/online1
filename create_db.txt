@@ -1,0 +1,12 @@
+create database lamiya1;
+create table VACCINE_REGISTRATION( 
+	id INT(10) NOT NULL AUTO_INCREMENT, 
+    VACCINE_DATE_2 char(30),
+	NID char(30), 
+	VACCINE_DATE_1  char(30),
+	PRIMARY KEY(id) 
+);
+
+insert into VACCINE_REGISTRATION values ( '','1', '00', '01' );
+insert into VACCINE_REGISTRATION values ( '','2', '10', '11' );
+select * from VACCINE_REGISTRATION;
